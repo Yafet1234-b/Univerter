@@ -69,4 +69,4 @@ def Get_Info():
                         return render_template('index.html', result = "Please enter valid values")
                 return render_template('index.html')
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
