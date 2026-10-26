@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>
+UniVERTER
+</title>
+<link rel="icon" href="Converted.jpeg" type = "image/x-icon">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1> UNIVERTER </h1>
+    <img class="marginal" src="Conversion.png" alt = "Conversion Image" height = 500 width = 1000>
+  <p class="text">
+Ever been stuck on questions because you couldn't convert between units!<br>
+Welcome to UniVERTER, the place where that never happens to you.<br>
+Just input the necessary information and solve problems quicker.<hr>
+<form action="/final" method="POST">
+    <label>
+        Unit to be converted
+    </lablel><input type = "text" id = "Info" name = "Input_2" placeholder="centimeter, kilometer, meter, inches, yard, feet - are
+     the only valid units for the time being">
+
+     <label>
+        Unit to be converted into
+    </label>
+    <input type="text" id="Info" name = "Input_3" placeholder = "Enter only centimeter, kilometer, meter, inches, feet, yards">
+
+<label>
+            Magnitude
+    </label>
+        <input type = "number" id ="Info" name = "Magnitude" placeholder = "Enter any number : ">
+<button type = "submit"> Select </button>
+    </form>
+    
+    </p>
+    <p>
+        The final product is {{ result }}
+    </p>
+</body>
+</html>
